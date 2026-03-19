@@ -26,7 +26,7 @@ Construir um ambiente realista de infraestrutura de TI para prática de:
 
 ## 🏗️ Arquitetura
 
-* Domínio: `lab.local`
+* Domínio: `hudney.local`
 * Rede: `172.23.192.0/24`
 * DNS centralizado no Domain Controller
 
@@ -34,19 +34,19 @@ Construir um ambiente realista de infraestrutura de TI para prática de:
 
 ## 🖥️ Infraestrutura
 
-| Host   | Sistema        | Função                    | IP            |
-| ------ | -------------- | ------------------------- | ------------- |
-| DC01   | Windows Server | Domain Controller (AD DS) | 172.23.192.10 |
-| WIN10  | Windows 10     | Cliente do domínio        | 172.23.192.20 |
-| DEBIAN | Debian         | Servidor Linux (SSH)      | 172.23.192.11 |
-| CENTOS | CentOS Stream  | Servidor Linux (SSH)      | 172.23.192.12 |
+| Host   | Sistema            | Função                    | IP            |
+| ------ | --------------     | ------------------------- | ------------- |
+| SERVERAD | Windows Server 19| Domain Controller (AD DS) | 172.23.192.10 |
+| CLIENT01 | Windows 10       | Cliente do domínio        | 172.23.192.99 |
+| DEBIAN | Debian 13          | Servidor Linux (SSH)      | 172.23.192.12 |
+| CENTOS | CentOS Stream 10   | Servidor Linux (SSH)      | 172.23.192.11 |
 
 ---
 
 ## 🪟 Active Directory
 
 * Instalação da role AD DS
-* Criação do domínio `lab.local`
+* Criação do domínio `hudney.local`
 * Gerenciamento de usuários
 * Autenticação centralizada
 
@@ -66,6 +66,7 @@ Construir um ambiente realista de infraestrutura de TI para prática de:
 ## 🔐 Acesso Remoto
 
 * SSH habilitado nos servidores Linux
+* acesso as VM pelo putty
 * Testes de conexão entre máquinas
 * Base para administração remota
 
@@ -113,7 +114,7 @@ Construir um ambiente realista de infraestrutura de TI para prática de:
 
 **Hudney Gomes Nunes**
 
-💼 Analista de TI em formação
+💼 Analista de TI 
 🚀 Foco em Infraestrutura, Linux e Redes
 
 ---
