@@ -6,9 +6,10 @@ Simulação de ambiente corporativo com integração entre **Windows Server (Act
 
 ## 📸 Visão Geral
 
-![Lab Diagram](./images/lab-diagram.png)
+[Lab Diagram](images/lab-services.png)
 
-![Hyper-V Lab](./images/xxxxx.png)
+
+[Hyper-V Lab](images/hyperv-lab.png)
 
 ---
 
