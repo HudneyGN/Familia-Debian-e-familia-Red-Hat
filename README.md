@@ -27,7 +27,7 @@ Construir um ambiente realista de infraestrutura de TI para prática de:
 ## 🏗️ Arquitetura
 
 * Domínio: `hudney.local`
-* Rede: `172.23.192.0/24`
+* Rede: `172.23.192.1/20`
 * DNS centralizado no Domain Controller
 
 ---
