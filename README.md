@@ -8,7 +8,7 @@ Simulação de ambiente corporativo com integração entre **Windows Server (Act
 
 [Lab Diagram](images/Lab/conf.jpeg)
 
-[Hyper-V Lab](images/services.png/images/ambiente_1.png) 
+[Hyper-V Lab](images/Lab/virtualMachine.jpeg) 
 
 ---
 
